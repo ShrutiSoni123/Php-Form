@@ -1,8 +1,8 @@
 <?php
-$host='fdb33.awardspace.net';
-$username='3997385_data';
-$password='databasepassword123';
-$dbname='3997385_data';
+$host='#hostname';
+$username='#username';
+$password='#password';
+$dbname='#database name';
 $con = mysqli_connect($host,$username,$password,$dbname);
 
 $First_name= $_POST['First_name'];
